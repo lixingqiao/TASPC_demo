@@ -1,0 +1,31 @@
+{
+  "dataset": "LongKou",
+  "num_classes": 9,
+  "class_names": [
+  "Corn",
+  "Cotton",
+  "Sesame",
+  "Broad-leaf soybean",
+  "Narrow-leaf soybean",
+  "Rice",
+  "Water",
+  "Roads and houses",
+  "Mixed weed"
+  ],
+  "splits": {
+    "current_0": {
+      "unseen_class_ids": [0, 1, 6],
+      "description": "Current split: Corn, Cotton, Water"
+    },
+
+    "current_1": {
+      "unseen_class_ids": [2, 3, 5],
+      "description": "Current split: Sesame, Broad-leaf soybean, Rice"
+    },
+
+    "current_2": {
+      "unseen_class_ids": [4, 7, 8],
+      "description": "Current split: Narrow-leaf soybean, Roads and houses, Mixed weed"
+    }
+  }
+}

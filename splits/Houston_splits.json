@@ -1,0 +1,57 @@
+{
+  "dataset": "Houston",
+  "num_classes": 15,
+  "class_names": [
+    "Healthy grass",
+    "Stressed grass",
+    "Synthetic grass",
+    "Trees",
+    "Soil",
+    "Water",
+    "Residential",
+    "Commercial",
+    "Road",
+    "Highways",
+    "Railways",
+    "Parking Lot 1",
+    "Parking Lot 2",
+    "Tennis Court",
+    "Running Track"
+  ],
+  "splits": {
+    "current_0": {
+      "unseen_class_ids": [0, 2, 5],
+      "description": "Current split: Healthy grass, Synthetic grass, Water"
+    },
+
+    "current_1": {
+      "unseen_class_ids": [3, 7, 10],
+      "description": "Current split: Trees, Commercial, Railways"
+    },
+
+    "current_2": {
+      "unseen_class_ids": [11, 13, 14],
+      "description": "Current split: Parking Lot 1, Tennis Court, Running Track"
+    },
+
+    "current_3": {
+      "unseen_class_ids": [6, 8, 12],
+      "description": "Current split: Residential, Road, Parking Lot 2"
+    },
+
+    "current_4": {
+      "unseen_class_ids": [1, 4, 9],
+      "description": "Current split: Stressed grass, Soil, Highways"
+    },
+
+    "hard_vegetation": {
+      "unseen_class_ids": [0, 1, 2],
+      "description": "Hard split: similar vegetation classes"
+    },
+
+    "hard_urban_material": {
+      "unseen_class_ids": [8, 9, 11],
+      "description": "Hard split: Road, Highways, Parking Lot 1"
+    }
+  }
+}

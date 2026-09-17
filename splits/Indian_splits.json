@@ -1,0 +1,48 @@
+{
+  "dataset": "Indian",
+  "num_classes": 16,
+  "class_names": [
+    "Alfalfa",
+    "Corn-notill",
+    "Corn-mintill",
+    "Corn",
+    "Grass-pasture",
+    "Grass-trees",
+    "Grass-pasture-mowed",
+    "Hay-windrowed",
+    "Oats",
+    "Soybean-notill",
+    "Soybean-mintill",
+    "Soybean-clean",
+    "Wheat",
+    "Woods",
+    "Buildings-Grass-Trees-Drives",
+    "Stone-Steel-Towers"
+  ],
+  "splits": {
+    "current_0": {
+      "unseen_class_ids": [1, 7, 13],
+      "description": "Current split: Corn-notill, Hay-windrowed, Woods"
+    },
+
+    "current_1": {
+      "unseen_class_ids": [5, 10, 14],
+      "description": "Current split: Grass-trees, Soybean-mintill, Buildings-Grass-Trees-Drives"
+    },
+
+    "current_2": {
+      "unseen_class_ids": [2, 6, 15],
+      "description": "Current split: Corn-mintill, Grass-pasture-mowed, Stone-Steel-Towers"
+    },
+
+    "current_3": {
+      "unseen_class_ids": [0, 3, 4, 11],
+      "description": "Current split: Alfalfa, Corn, Grass-pasture, Soybean-clean"
+    },
+
+    "current_4": {
+      "unseen_class_ids": [8, 9, 12],
+      "description": "Current split: Oats, Soybean-notill, Wheat"
+    }
+  }
+}

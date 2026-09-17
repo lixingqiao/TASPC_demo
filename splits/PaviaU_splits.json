@@ -1,0 +1,29 @@
+{
+  "dataset": "PaviaU",
+  "num_classes": 9,
+  "class_names": [
+    "Asphalt",
+    "Meadows",
+    "Gravel",
+    "Trees",
+    "Painted metal sheets",
+    "Bare Soil",
+    "Bitumen",
+    "Self-Blocking Bricks",
+    "Shadows"
+  ],
+  "splits": {
+    "current_0": {
+      "unseen_class_ids": [0, 3, 4],
+      "description": "Balanced split: Asphalt, Trees, Painted metal sheets"
+    },
+    "current_1": {
+      "unseen_class_ids": [1, 6, 8],
+      "description": "Balanced split: Meadows, Bitumen, Shadows"
+    },
+    "current_2": {
+      "unseen_class_ids": [2, 5, 7],
+      "description": "Balanced split: Gravel, Bare Soil, Self-Blocking Bricks"
+    }
+  }
+}

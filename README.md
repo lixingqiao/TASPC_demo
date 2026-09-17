@@ -50,8 +50,6 @@ The method achieves the best overall performance across the evaluated datasets.
 
 ## Code Availability
 
-The core implementation is currently not publicly released because the manuscript is still under peer review and related research materials are being finalized.
-
 The repository will be updated after completion of the publication process.
 
 ---
